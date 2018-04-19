@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+.page {
+	padding: 10px
+}
+
+.page>p {
+	display: inline;
+}
+
+.page>p span {
+	color: red
+}
+
+.page>div {
+	display: inline;
+	float: right;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.page>div input {
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.page #prev {
+	background-image: url(../images/prev.png);
+	background-repeart: no-repeart;
+	width: 20px;
+	height: 20px;
+}
+
+.page #next {
+	background-image: url(../images/next.png);
+	background-repeart: no-repeart;
+	width: 20px;
+	height: 20px;
+}

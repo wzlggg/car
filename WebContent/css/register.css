@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+
+input {
+	border: 1px #CCC solid;
+}
+
+ul li {
+	float: left;
+	margin: 20px;
+	list-style-type: none;
+}
+
+#nav {
+	width: 1366px;
+	background-color: #f0f0f0;
+}
+
+/*头部样式*/
+#top {
+	width: 1366px;
+	height: 129px;
+	background: url(../images/bg.png) -250px;
+}
+
+#top img {
+	position: relative;
+	left: 190px;
+	top: 35px;
+}
+
+#top span {
+	font-size: 14px;
+	color: #999;
+	position: relative;
+	top: 50px;
+	left: 780px;
+}
+
+#top a {
+	color: red;
+	text-decoration: none;
+}
+
+/*注册表单样式*/
+#content {
+	width: 1100px;
+	background-color: #FFF;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #333;
+	padding-bottom: 50px;
+}
+
+#content form {
+	margin-left: 250px;
+}
+
+#content p {
+	font-size: 12px;
+	color: #999;
+}
+
+.in {
+	color: red;
+	font-size: 12px;
+}
+
+.photo {
+	width: 590px;
+	overflow: auto;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px #CCC solid;
+}
+
+.photo h2 {
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.td_border {
+	height: 35px;
+	padding: 0px 5px;
+	border: 1px #CCC solid;
+	border-radius: 5px;
+	line-height: 30px;
+}
+
+.td_border input {
+	width: 300px;
+	height: 30px;
+	margin-left: 5px;
+	border-style: none;
+	background-color: rgba(0, 0, 0, 0);
+	outline: none;
+}
+
+.td_border img {
+	float: right;
+	margin-top: 12px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.td_border select {
+	width: 500px;
+	height: 30px;
+	border: none;
+}
+
+.tel_btn {
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+}
+
+.center {
+	position: relative;
+	left: 150px;
+}
+
+.center input {
+	margin: 5px;
+}
+
+.submit input {
+	width: 400px;
+	height: 35px;
+	border-radius: 5px;
+	position: relative;
+	left: 60px;
+	background: url(../images/register_box.png) no-repeat;
+}
+
+.red {
+	color: red;
+}
+
+.ykat {
+	color: #76ca96;
+}
+
+.uploading_btn {
+	border: none;
+	border-radius: 5px;
+	color: #FFF;
+	width: 70px;
+	height: 30px;
+	float: right;
+	background: url(../images/uploading_btn.png) no-repeat;
+}
+
+#footer {
+	width: 1100px;
+	margin: 0 auto;
+	height: 50px;
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+	background-color: #FFF;
+	border-top: 1px #CCC solid;
+	padding: 30px 0px 30px 0px
+}
+
+#footer p {
+	line-height: 20px;
+	font-size: 12px;
+}

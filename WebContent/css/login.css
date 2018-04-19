@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+
+#login-header {
+	height: 120px;
+	border-style: none;
+}
+
+#logo {
+	height: 67px;
+	width: 255px;
+	background-image: url(../images/logo_logo.png);
+	background-repeat: no-repeat;
+	margin-top: 35px;
+	margin-left: 130px;
+	border: 0px;
+}
+
+#login-content {
+	height: 500px;
+	background-image: url(../images/dl_bj.png);
+}
+
+#left {
+	float: left;
+	height: 405px;
+	width: 413px;
+	background-image: url(../images/bg_che.png);
+	position: relative;
+	bottom: -90px;
+}
+
+#right {
+	float: right;
+	height: 400px;
+	width: 385px;
+	background-image: url(../images/bg_jx.png);
+	position: relative;
+	bottom: -50px;
+}
+
+#right p {
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 25px;
+	margin-top: 60px;
+}
+
+.in {
+	width: 310px;
+	height: 50px;
+	border: 1px solid;
+	border-radius: 5px;
+	-moz-border-radius: 25px;
+	border-color: #ffffff;
+	margin: 30px 30px 0px 30px;
+	/*border:2px;*/
+}
+
+#phone {
+	margin: 15px;
+	float: left;
+	width: 30px;
+	height: 22px;
+	background-image: url(../images/phone.png);
+}
+
+#lock {
+	margin: 15px;
+	float: left;
+	width: 31px;
+	height: 22px;
+	background-image: url(../images/password.png);
+}
+
+.close {
+	margin: 16px 10px 15px 0px;
+	float: right;
+	width: 14px;
+	height: 14px;
+	background-image: url(../images/close.png);
+}
+
+.close:hover {
+	cursor: pointer;
+}
+
+#link {
+	position: relative;
+	top: 10px;
+	left: -50px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#linka {
+	position: relative;
+	top: 10px;
+	left: 70px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+input {
+	/*opacity:0.1;*/
+	height: 46px;
+	width: 210px;
+	border-style: none;
+	background-color: rgba(0, 0, 0, 0);
+	color: #123456;
+	font-size: 20px;
+	outline: none;
+}
+
+::-moz-placeholder {
+	color: #FFFFFF;
+}
+
+::-webkit-input-placeholder {
+	color: #FFFFFF;
+}
+
+:-ms-input-placeholder {
+	color: #FFFFFF;
+}
+
+#login-footer {
+	height: 130px;
+}
+
+#login-footer p {
+	text-align: center;
+	color: #6f6f6f;
+	font-size: 10px;
+}
